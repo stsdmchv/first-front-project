@@ -96,3 +96,15 @@ header a {
   width: 238px;
   text-decoration: none;
 }
+
+.about {
+  color: #000;
+}
+
+.description {
+  width: 564px;
+  display: flex;
+}
+
+.photo {
+}
