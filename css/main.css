@@ -9,25 +9,14 @@ header {
   color: #fff;
 }
 
+header a {
+  color: #fff;
+}
+
 section {
   text-decoration: none;
   font-family: "Anton", sans-serif;
   padding-top: 113px;
-}
-
-footer {
-}
-
-.footer-text {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  display: flex;
-  padding: 80px;
-}
-
-.footer-text p {
-  margin-right: 67px;
 }
 
 h1,
@@ -53,6 +42,23 @@ h2 {
   margin-bottom: 58px;
 }
 
+h3 {
+  font-size: 25px;
+  margin-bottom: 28px;
+}
+
+.footer-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  padding: 80px;
+}
+
+.footer-text p {
+  margin-right: 67px;
+}
+
 .header {
   background: url("../img/header-bg.jpg") no-repeat center top / cover;
   padding-top: 57px;
@@ -64,9 +70,6 @@ h2 {
   margin: 0 auto; /* позиционирование по центру */
 }
 
-header a {
-  color: #fff;
-}
 .logo {
   margin-right: 69px;
 }
@@ -124,6 +127,12 @@ header a {
   border: 1px solid #fff;
   width: 238px;
   text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .about {
