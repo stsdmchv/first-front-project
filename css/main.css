@@ -1,9 +1,33 @@
 body {
   padding: 0;
   margin: 0;
+  font-size: 16px;
+}
+
+header {
   font-family: "Anton", sans-serif;
   color: #fff;
-  font-size: 16px;
+}
+
+section {
+  text-decoration: none;
+  font-family: "Anton", sans-serif;
+  padding-top: 113px;
+}
+
+footer {
+}
+
+.footer-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  padding: 80px;
+}
+
+.footer-text p {
+  margin-right: 67px;
 }
 
 h1,
@@ -22,6 +46,11 @@ li {
   display: block;
   margin: 0;
   padding: 0;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 58px;
 }
 
 .header {
@@ -102,9 +131,24 @@ header a {
 }
 
 .description {
-  width: 564px;
   display: flex;
+  justify-content: space-between;
 }
 
-.photo {
+.description-left,
+.description-right {
+  width: 567px;
+}
+
+.description p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.62em;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 67px;
 }
